@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="shortcut icon" type="image/png" href="https://jakel181-test.github.io/SDS-Translators/favicon.ico">
+    <link rel='stylesheet' type='text/css' href='style.css'>
+    <script src='l10n.js'></script>
+    <script src='main.js'></script>
+    <title>SDS Info</title>
+  </head>
+  <body onload="prep()">
+    <div class="inner" id="header">
+      <ul>
+        <li id="name">SDS</li>
+        <li>
+          <div class="dropdown" id="dropdown">
+            <button onclick="dropit()" class="dropdownButton" id="dropButton">English ▾</button>
+            <div id="dropOptions" class="dropdown-content">
+              <input type="text" placeholder="⌕" id="languageSearchInput">
+            </div>
+          </div>
+        </li>
+      </ul>
+    </div>
+    <div id="content">
+      <h2 id="sdsTitle">Title</h2>
+      <p id="translatorCredit"></p>
+      <p id="uniqueDescription">
+        Frist Line<br/>
+        Unique
+        <br/>
+        <br/>
+      </p>
+      <p id="standardDescription">
+        To have your project added to this studio, please post a comment with a link. You can find a link to your project by clicking the ‘Embed’ button on the project page. The link will be directly below the Facebook logo.
+        <br/>
+        Please submit a single project made no earlier than one month before the start of this Design studio. However, you can update your project, and it'll be eligible again. If you have an older project that would fit, add some new features and feel free to submit the updated version!
+        <br/>
+        All projects must meet the community guidelines and be appropriate for all ages!
+        <br/>
+        It may take some time for your projects to be added. Please be patient, we add projects oldest to newest; no need to double post!
+        <br/><br/>
+
+        SDS (Scratch Design Studio) is a themed studio where any Scratcher can submit a project that matches the current theme so long as it meets the requirements shown above.
+        <!-- No br here as it looks fine without -->
+        Check out this project to see how new SDS curators are selected: <a href="https://scratch.mit.edu/projects/55738732/">https://scratch.mit.edu/projects/55738732/</a>
+        Please do not simply ask to be a curator!
+        <br/><br/>
+
+        Do you have an idea for a future design studio? Visit the studio linked below, read the studio description, and then submit your idea in the form of a project here: <a href="http://scratch.mit.edu/studios/93627/">http://scratch.mit.edu/studios/93627/</a>
+        <br/><br/>
+
+        Questions about Scratch Design Studio? Check out the Scratch Wiki's article on it: <a href="https://en.scratch-wiki.info/wiki/SDS">http://en.scratch-wiki.info/wiki/SDS/</a>
+        <br/><br/>
+
+        Check out this account for new updates on the SDS, new SDS curators and more! <a href="https://scratch.mit.edu/users/SDS-Updates/">@SDS-Updates</a>
+        <br/><br/>
+
+        Credit to @ScratchCat for the thumbnail!
+
+        <br/></p>
+      <div id="credits">
+        <h2 id="curatorString">The SDS is curated by</h2>
+        <ul>
+          <li>
+              <img src="//cdn.scratch.mit.edu/get_image/user/8378318_170x170.png" alt="4LeafClovR Avatar" />
+              <span className="name">4LeafClovR</span>
+          </li>
+          
+          <li>
+              <img src="//cdn.scratch.mit.edu/get_image/user/16092774_170x170.png" alt="Abstract- Avatar" />
+              <span className="name">Abstract-</span>
+          </li>
+          
+          <li>
+              <img src="//cdn.scratch.mit.edu/get_image/user/2480703_170x170.png" alt="CrazyNimbus Avatar" />
+              <span className="name">CrazyNimbus</span>
+          </li>
+
+          <li>
+              <img src="//cdn.scratch.mit.edu/get_image/user/3036291_170x170.png" alt="derpmeup Avatar" />
+              <span className="name">derpmeup</span>
+          </li>
+
+          <li>
+              <img src="//cdn.scratch.mit.edu/get_image/user/2911137_170x170.png" alt="fmtfmtfmt2 Avatar" />
+              <span className="name">fmtfmtfmt2</span>
+          </li>
+
+          <li>
+              <img src="//cdn.scratch.mit.edu/get_image/user/676422_170x170.png" alt="getbent Avatar" />
+              <span className="name">getbent</span>
+          </li>
+
+          <li>
+              <img src="//cdn.scratch.mit.edu/get_image/user/4873688_170x170.png" alt="GreenIeaf Avatar" />
+              <span className="name">GreenIeaf</span>
+          </li>
+
+          <li>
+              <img src="//cdn.scratch.mit.edu/get_image/user/10617144_170x170.png" alt="Hamish752 Avatar" />
+              <span className="name">Hamish752</span>
+          </li>
+
+          <li>
+              <img src="//cdn.scratch.mit.edu/get_image/user/5418546_170x170.png" alt="Ionosphere Avatar" />
+              <span className="name">Ionosphere</span>
+          </li>
+
+          <li>
+              <img src="//cdn.scratch.mit.edu/get_image/user/713038_170x170.png" alt="joletole Avatar" />
+              <span className="name">joletole</span>
+          </li>
+
+          <li>
+              <img src="//cdn.scratch.mit.edu/get_image/user/4515658_170x170.png" alt="Malik44 Avatar" />
+              <span className="name">Malik44</span>
+          </li>
+
+          <li>
+              <img src="//cdn.scratch.mit.edu/get_image/user/946807_170x170.png" alt="puppymk Avatar" />
+              <span className="name">puppymk</span>
+          </li>
+
+          <li>
+              <img src="//cdn.scratch.mit.edu/get_image/user/2911098_170x170.png" alt="st19_galla Avatar" />
+              <span className="name">st19_galla</span>
+          </li>
+
+          <li>
+              <img src="//cdn.scratch.mit.edu/get_image/user/36977_170x170.png" alt="technoboy10 Avatar" />
+              <span className="name">technoboy10</span>
+          </li>
+
+          <li>
+              <img src="//cdn.scratch.mit.edu/get_image/user/2592116_170x170.png" alt="The_Grits Avatar" />
+              <span className="name">The_Grits</span>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </body>
+</html>
